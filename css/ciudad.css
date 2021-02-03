@@ -1,0 +1,2155 @@
+
+
+#content-wrap{
+  text-align: center;
+  margin:auto;
+  width: 80%;
+}
+
+#userline{
+  float: right;
+  margin-bottom: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+  }
+  
+h1, h2{
+    font-family: 'Montserrat';
+    color: #222222;
+    font-weight: 600;
+}
+  .logo {
+    float: left;
+  }
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+  }
+    
+  #navigation-container ul li .active{
+    color: red;
+  }
+  
+  .navigation-bar {
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    text-align:center;
+  }
+  .navigation-bar img{
+  float:left;
+  }
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  .navigation-bar li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+  }
+
+
+  #menu {
+    float: right;
+  }
+  
+  #objectivos{
+      -webkit-box-shadow: 0px -1px 9px 3px rgba(128,128,128,0.53);
+  -moz-box-shadow: 0px -1px 9px 3px rgba(128,128,128,0.53);
+  box-shadow: 0px -1px 9px 3px rgba(128,128,128,0.53);
+  
+      width: 700px;
+      height: 300px;
+      margin: 0 auto;
+  }
+  
+  #objectivos h2{
+      padding-top: 20px;
+      margin-left: 10px;
+  }
+
+  #objectivos p{
+    padding:2px 25px;
+  }
+
+  #valores{
+    margin-top: 25px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  #valores span{
+      font-style: italic;
+      color: #e65c00;
+  }
+
+  #div_valuesTable{
+    display: block;
+    float: left;
+    margin-top: 290px;
+  }
+
+  #values_table{
+      margin-left: 200px;
+      margin-right: 200px;
+      text-align: left;
+  }
+
+  #values_table td{
+    padding:0 25px;
+  }
+
+  #values_table td p{
+    font-size: 14px;
+  }
+
+
+  #values_table h2 {
+    position: relative;
+    line-height: 1.3em;
+  }
+  
+  #values_table h2:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 50px;
+    content: '';
+    border-top: 2.5px solid orange;
+  }
+
+  #gente{
+    background-image: url("../images/homepage-one-banner.jpg");
+    background-size: 1530px 300px;
+    height: 260px;
+    margin-top: 30px;
+  }
+  #gente h1{
+    text-align: left;
+    margin-left: 200px;
+  }
+
+  #gente p {
+      text-align: left;
+      width: 700px;
+      margin-left: 200px;
+      color: white;
+      padding-bottom: 10px;
+  }
+
+  #overlap_img{
+    background-image: url('../images/objects.png');
+    height: 260px;
+    width: 400px;
+    margin-top:-260px;
+  }
+
+  #firstLine{
+      padding-top: 5px;
+      color: #e65c00;
+      margin:0;
+  }
+
+  #secondLine{
+      margin:0;
+      color: white;
+      font-style: italic;
+  }
+
+  .row{
+    height:350px;
+  }
+
+  .row, .column {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row div:nth-child(2){
+    background-image: url("../images/homepage-one-banner.jpg");
+  }
+
+  #icons_table{
+      margin-top: 55px;
+      margin-left: auto;
+	    margin-right: auto;     
+      width: 300px;
+      height: 150px;
+      border-color: rgb(223, 173, 132);
+  }
+
+  #icons_table td i{
+    margin-left: 35px;
+    margin-bottom: 9px;
+  }
+
+  /* .col2{
+      margin-left: 155px;
+      text-align: left;
+      color: white;
+  } */
+
+  #col2_h1{
+    margin: 0;
+    margin-left: 85px;
+    text-align: left;
+    color: white;
+  }
+
+  #col2_h1 span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #col2_p{
+    margin-top: 0px;
+    font-size: 11px;
+    margin-left: 85px;
+    text-align: left;
+    color: rgb(189, 181, 181);  
+  }
+
+  #col2_form{
+    margin-left: 85px;
+    text-align: left;
+    color: white;
+  }
+
+  .register_form{
+    color: white;
+    background-image: url('../images/homepage-one-banner.jpg');
+    padding: 7px 12px;
+    width: 180px;
+    border: 1px solid #ccc;
+    /* width: 150px; */
+    opacity: 1;
+  }
+
+  select option{
+    color: black; 
+
+  }
+
+  .register_form::placeholder {
+    color: #ccc;
+  }
+
+  .col2td{
+      padding-left: 65px;
+  }
+
+  #register_table tr>td{
+      padding-bottom: 10px;
+  }
+
+  .strategy h2{
+    margin-left: 100px;
+    margin-bottom: 5px;
+  }
+
+  .strategy h2 span{
+      font-style: italic;
+      color: #e65c00;
+   }
+
+  .strategy, .strategy_column {
+    box-sizing: border-box;
+  }
+  
+  .strategy{
+    background-image: url('../images/Colors_Of_Sky.jpg');
+  }
+  
+  .strategy_column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .strategy::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #firstimg{
+      margin-left:300px;
+      height: 80px;
+  }
+  
+  #secondimg{
+      margin-left:450px;
+      height: 80px;
+  }
+
+  #blogframe{
+    margin-top:10px;
+    width:100%;
+    height:300px;
+    margin-bottom: 10px;
+  }
+  #nuestro_blog h2{
+    margin-left:0px;
+  }
+
+  #nuestro_blog h2 span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #blog_firstline{
+    font-size: 15px;
+    color: gray;
+    margin:0 200px;
+    width:800px;
+  }
+
+  #nuestro_blog table{
+    margin-left: 100px;
+  }
+
+  #nuestro_blog table td{
+    padding:45px;
+    
+  }
+
+  .ago_23{
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  .may_13{
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  .eventText{
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .eventDiv{
+    border: 2px solid rgb(201, 194, 194);
+    border-radius: 5px;
+  }
+
+  /* footer css starts */
+  #footer form h2{
+    float: left;
+    margin-left: 200px;
+    color: white;
+  }
+
+  #footer form h2 span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #footer form{
+    background-image: url('../images/homepage-one-banner.jpg');
+  }
+
+  #enviad{
+    margin-left: 15px;
+    background-color: #e65c00;
+    cursor: pointer;
+    padding: 8px 32px;
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+
+  #email_footer{
+    margin-top:20px;
+    margin-left: 190px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  
+  #social_media{
+    display: block;
+    margin-left: 0px;
+    height: 100px;
+    background-color: rgb(31, 37, 44);
+  }
+
+  #social_media i{
+   float: left;
+   color: white;
+   font-size:32px;
+   margin-top:40px;
+   margin-left: 45px;
+  }
+
+  #footer_lastline{
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(20, 20, 22);
+    color: rgb(167, 162, 162);
+    height: 30px;
+    font-size:0.70em;
+  }
+
+  #footer_lastline i{
+    color: #e65c00;
+    margin-left: 750px;
+    font-size: 25px;
+  }
+
+  #footer_lastline span{
+    color: #e65c00;
+  }
+  /* footer css ends */
+
+  /* login form css starts*/
+  
+  .overlay {
+    position: fixed;
+   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .login_container {
+    border: 2px solid gray;
+    border-radius: 7px;
+    background: #fff;
+    width: 300px;
+    height: 330px;
+  }
+  
+  .login_container hr{
+    color: gray;
+  }
+
+
+  .login_container h1{
+    margin-left: 20px;
+  }
+
+  .login_container h1 span{
+    font-style: italic;
+    color: #e65c00;
+  }
+  .login_container i{
+    float: right;
+    margin-right: 5px;
+    font-size: 25px;
+    color: gray;
+  }
+  .login_container input, .login_container label{
+    margin-left: 20px;
+    color: gray;
+  }
+
+  .login_container>input{
+    border: 1px solid #ccc;
+    color: black;
+    width:80%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+  }
+  #submit {
+    background-color: #e65c00;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 170px;
+    border: none;
+    cursor: pointer;
+  }
+  /* login form css ends*/
+
+  #mission{
+    float: left;
+  }
+
+  #mission span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #mission td p{
+    font-size: 14px;
+  }
+
+
+  #mission h2 {
+    position: relative;
+    line-height: 1.3em;
+  }
+  
+  #mission h2:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 50px;
+    content: '';
+    border-top: 2.5px solid orange;
+  }
+
+  #mission{
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align: left;
+  }
+
+  #mission td{
+    padding:15px;
+  }
+
+  /*speech bubble starts here*/
+  .speech-bubble {
+    background-color: white;
+    border: 1px solid #c8c8c8;
+    margin-right: 60px;
+    margin-top: 130px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 18px;
+    position: relative;
+    float: left;
+    font-size: 13px;
+    color: gray;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent #c8c8c8 transparent transparent;
+    /*border-width: 8px 8px 0px 8px;*/
+    border-width: 0px 16px 16px 0px;
+    bottom: -16px;
+    left: 0px;
+}
+
+.bottom:after {
+    border-color: transparent #f8f8f8 transparent transparent;
+    border-style: solid;
+    border-width: 0px 15px 15px 0px;
+    bottom: -15px;
+    content: "";
+    position: absolute;
+    left: 0px;
+}
+
+  #third_bubble{
+    height: 280px;
+    margin-right: 200px;
+  }
+
+  #first_bubble{
+    margin-left: 170px;
+  }
+
+  #questions p{
+    float: left;
+    color: gray;
+  }
+
+  #que1{
+    margin-left: 220px;
+    margin-top: -70px;
+  }
+
+  #que2{
+    margin-top: -70px;
+    margin-left: 500px;
+  }
+
+  #que3{
+    margin-top: 5px;
+    margin-left: 800px;
+  }
+  /*speech bubble ends here*/
+
+  /*mission values table.. had to define separate css as previous one was affecting look and feel*/
+  #mission_valuesTable{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+  #mission_valuesTable td{
+    padding:0 25px;
+  }
+
+  #mission_valuesTable td p{
+    font-size: 14px;
+  }
+
+
+  #mission_valuesTable h2 {
+    position: relative;
+    line-height: 1.3em;
+  }
+
+  #mission_valuesTable h2:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 50px;
+    content: '';
+    border-top: 2.5px solid orange;
+  }
+  /*mission values tabled ends */
+
+  #heroImage{
+    margin-top: 19px;
+    display: block;
+    background-image: url('../images/homepage-one-banner.jpg');
+    height: 90px;
+  }
+
+  #hero-text {
+    text-align: center;
+    position: absolute;
+    margin-left: 550px;
+  }
+
+  #hero-text p{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  #hero-text h2{
+    color: white;
+    margin-bottom: -2px;
+  }
+
+  /* user details and admin details table css*/
+  .details_tb {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  .details_tb td, .details_tb th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .details_tb th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(95, 160, 93);
+    color: white;
+  }
+  /* table css ends */
+
+  .heading_user{
+    text-align: center;
+  }
+
+  /*contact us css starts*/
+
+
+  #Contacto{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 70px;
+  }
+  #Contacto td{
+    padding: 50px;
+  }
+
+  #Contacto span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #media_handles i{
+    font-size: 40px;
+    margin-left: 40px;
+  }
+
+  #media_handles{
+    margin-left: 170px;
+    float: left;
+    margin-right: 30px;
+  }
+
+  #media_handles td{
+    padding: 20px;
+  }
+
+  #contact_form{
+    width: 270px;
+  }
+
+  #contact_form td{
+    padding-bottom: 25px;
+  }
+
+  #contact_form label{
+    color: gray;
+  }
+
+  #asunto{
+    height: 120px;
+  }
+
+  .contact-form-tags{
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+  }
+
+  #contact-us-fourth-sec{
+    display: block;
+    padding-top: 10px;
+    background-image: url('../images/homepage-one-banner\ -\ Copy.jpg');
+    height: 120px;
+  }
+
+  #contact-us-fourth-sec p{
+    /* margin-top: 30px; */
+    color: white;
+    font-size: 30px;
+  }
+
+  #contact-us-fourth-sec p span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #contact-us-social_media{
+    display: block;
+    padding-left: 470px;
+    height: 100px;
+    background-color: rgb(31, 37, 44);
+  }
+
+  #contact-us-social_media i{
+   float: left;
+   color: white;
+   font-size:32px;
+   margin-top:40px;
+   margin-left: 45px;
+  }
+
+  #contact-us-enviar{
+      background-color: #e65c00;
+      color: white;
+      padding: 12px 20px;
+      margin: 4px 0px;
+      border: none;
+      cursor: pointer;
+  }
+  /*contact us css ends*/
+
+  /* Equipos css starts*/
+
+  #equipos-hero-text {
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+  }
+
+  #equipos-hero-text p{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
+  #equipos-hero-text h2{
+    color: white;
+    margin-bottom: -2px;
+  }
+
+  #tbl-direction{
+    margin-left: 250px;
+    margin-right: 150px;
+  }
+  
+  #tbl-direction td{
+    padding: 25px;
+  }
+  
+  .direction-team{
+    width: 200px;
+    border: 1px solid rgb(226, 222, 222);
+  }
+
+  .direction-team img{
+    height: 170px;
+    margin-left: 15px;
+  }
+
+  .direction-team p{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .equipos-tbl-captions span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #multidiscipline{
+    margin-left: 270px;
+    margin-right: 50px;
+  }
+
+  #multidiscipline td{
+    padding: 15px;
+  }
+
+  .multidiscipline-team{
+    width: 150px;
+    border: 1px solid rgb(226, 222, 222);
+  }
+
+  .multidiscipline-team img{
+    height: 140px;
+    margin-left: 5px;
+  }
+
+  .multidiscipline-team p{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #euipos-social_media{
+    margin-top: -16px;
+    display: block;
+    padding-left: 470px;
+    height: 100px;
+    background-color: rgb(31, 37, 44);
+  }
+
+  #euipos-social_media i{
+   float: left;
+   color: white;
+   font-size:32px;
+   margin-top:40px;
+   margin-left: 45px;
+  }
+  /* Equipos css ends */
+
+  /*nuestro2 blog*/
+ #nuestro2_blog h2{
+  margin-left:0px;
+}
+
+#nuestro2_blog h2 span{
+  font-style: italic;
+  color: #e65c00;
+}
+
+#blog_firstline{
+  font-size: 15px;
+  color: gray;
+  margin:0 200px;
+  width:800px;
+}
+
+#nuestro2_blog table{
+  margin-left: 150px;
+}
+
+#nuestro2_blog table td{
+  padding:20px;
+  
+}
+
+
+.event2Div{
+  border: 2px solid rgb(201, 194, 194);
+  border-radius: 5px;
+}
+
+.event2Text{
+  margin-top: 10px;
+  text-align: left;
+}
+
+.ago_24{
+  margin-top: -15px;
+  margin-left: -150px;
+}
+
+.may_14{
+  margin-top: -15px;
+  margin-left: -150px;
+}
+ 
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color:#e65c00 ;
+  color: white;
+  border: 1px solid #e65c00;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+#hero2Image{
+  margin-top: 19px;
+  display: block;
+  background-image: url('../images/homepage-one-banner.jpg');
+  height: 90px;
+}
+
+#hero2-text {
+  text-align: center;
+  position: absolute;
+  margin-left: 450px;
+}
+
+#hero2-text p{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+#hero2-text h2{
+  color: white;
+  margin-bottom: -2px;
+}
+/* footer2 css starts */
+#footer2 form h2{
+float: left;
+margin-left: 100px;
+color: white;
+}
+
+#footer2 form h2 span{
+font-style: italic;
+color: #e65c00;
+}
+
+#footer2 form{
+height: 100px;
+background-image: url('../images/homepage-one-banner.jpg');
+}
+
+#enviad2{
+margin-left: 15px;
+background-color: #e65c00;
+cursor: pointer;
+padding: 8px 32px;
+color: white;
+text-decoration: none;
+border: none;
+}
+
+#email2_footer{
+margin-top:20px;
+margin-left: 200px;
+height: 25px;
+width: 250px;
+margin-bottom: 15px;
+}
+
+#social2_media{
+display: block;
+padding-left: 500px;
+height: 100px;
+background-color: rgb(31, 37, 44);
+}
+
+#social2_media i{
+float: left;
+color: white;
+font-size:32px;
+margin-top:40px;
+margin-left: 45px;
+}
+
+#footer2_lastline{
+text-align: center;
+  padding-top: 15px;
+  background-color: rgb(20, 20, 22);
+  color: rgb(167, 162, 162);
+  height: 30px;
+  font-size:0.70em;
+}
+
+#footer2_lastline i{
+color: #e65c00;
+margin-left: 750px;
+font-size: 25px;
+}
+
+#footer2_lastline span{
+margin-top: 50px;
+color: #e65c00;
+}
+
+/* footer css ends */
+
+/* media query implementation */
+@media screen and (max-width:1024px){
+
+  #content-wrap{
+    text-align: center;
+    margin:auto;
+    width: 70%;
+  }
+
+  .navigation-bar li a {
+    color: black;
+    font-size: 10px;
+    line-height: 70px;
+    padding: 3px 8px;
+  }
+
+  .navigation-bar {
+    background-color:white;
+    
+    width: 50%;
+    text-align:left;
+  }
+  .navigation-bar img{
+  float:left;
+  width: 150px;
+  }
+
+  #gente h1{
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  #gente p {
+      text-align: left;
+      width: 700px;
+      margin-left: 10px;
+      color: white;
+      padding-bottom: 10px;
+  }
+
+  #values_table{
+    margin-left: 40px;
+    margin-right: 200px;
+    text-align: left;
+  }
+
+  #values_table td{
+    padding:0 15px;
+  }
+
+  #values_table td p{
+    font-size: 14px;
+  }
+
+
+  #values_table h2 {
+    position: relative;
+    line-height: 1.3em;
+  }
+
+  #values_table h2:before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 50px;
+    content: '';
+    border-top: 2.5px solid orange;
+  }
+
+  .col2td{
+    padding-left: 15px;
+  }
+
+  #register_table tr>td{
+      padding-bottom: 10px;
+  }
+
+  .register_form{
+    color: white;
+    background-image: url('../images/homepage-one-banner.jpg');
+    padding: 7px 12px;
+    width: 100px;
+    border: 1px solid #ccc;
+    /* width: 150px; */
+    opacity: 1;
+  }
+
+  #col2_h1{
+    margin: 0;
+    margin-left: 45px;
+    text-align: left;
+    color: white;
+  }
+
+  #col2_p{
+    margin-top: 0px;
+    font-size: 11px;
+    margin-left: 45px;
+    text-align: left;
+    color: rgb(189, 181, 181);  
+  }
+
+  #col2_form{
+    margin-left: 45px;
+    text-align: left;
+    color: white;
+  }
+
+  .strategy h2{
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  #firstimg{
+    margin-left:100px;
+    height: 80px;
+}
+
+  #secondimg{
+      margin-left:250px;
+      height: 80px;
+  }
+
+  #nuestro_blog h2{
+    margin-left:0px;
+  }
+
+  #blog_firstline{
+    font-size: 13px;
+    color: gray;
+    margin:0 10px;
+    width:600px;
+  }
+
+  #nuestro_blog table{
+    margin-left: -30px;
+  }
+
+  #nuestro_blog table td{
+    padding:15px;
+  }
+
+  .ago_23{
+    margin-top: -15px;
+    margin-left: 5px;
+  }
+
+  .may_13{
+    margin-top: -15px;
+    margin-left: -55px;
+  }
+
+  .eventText{
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .eventDiv{
+    border: 2px solid rgb(201, 194, 194);
+    border-radius: 5px;
+  }
+
+  /* footer css starts */
+  #footer form h2{
+    float: left;
+    margin-left: 70px;
+    color: white;
+  }
+
+  #footer form h2 span{
+    font-style: italic;
+    color: #e65c00;
+  }
+
+  #footer form{
+    background-image: url('../images/homepage-one-banner.jpg');
+  }
+
+  #enviad{
+    margin-left: 5px;
+    width: 80px;
+    background-color: #e65c00;
+    cursor: pointer;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+
+  #email_footer{
+    margin-top:20px;
+    margin-left: 0px;
+    height: 25px;
+    width: 130px;
+    margin-bottom: 15px;
+  }
+  
+  #social_media{
+    display: block;
+    height: 100px;
+    background-color: rgb(31, 37, 44);
+  }
+
+  #social_media i{
+   float: left;
+   color: white;
+   font-size:29px;
+   margin-top:40px;
+   margin-left: 15px;
+  }
+
+  #footer_lastline{
+    text-align: center;
+    padding-top: 15px;
+    
+    height: 30px;
+    font-size:0.70em;
+  }
+
+  #footer_lastline i{
+    color: #e65c00;
+    margin-left: 550px;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  #footer_lastline span{
+    color: #e65c00;
+  }
+  /* footer css ends */
+
+  /*nosotros mission.html css begins*/
+  #heroImage{
+    margin-top: 19px;
+    display: block;
+    background-image: url('../images/homepage-one-banner.jpg');
+    height: 50px;
+  }
+
+  #hero-text {
+    text-align: center;
+    position: absolute;
+    margin-left: 350px;
+  }
+
+  #hero-text p{
+    color: white;
+    font-size: 9px;
+    padding-bottom: 8px;
+  }
+
+  #hero-text h2{
+    font-size: 14px;
+    color: white;
+    margin-bottom: -2px;
+  }
+
+  /*speech bubble starts here*/
+  .speech-bubble {
+    background-color: white;
+    border: 1px solid #c8c8c8;
+    margin-right: 30px;
+    margin-top: 130px;
+    border-radius: 5px;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    padding: 18px;
+    position: relative;
+    float: left;
+    font-size: 13px;
+    color: gray;
+}
+
+  #third_bubble{
+    height: 350px;
+    margin-right: 5px;
+  }
+
+  #first_bubble{
+    margin-left: 70px;
+  }
+
+  #que1{
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+
+  #que2{
+    margin-top: -70px;
+    margin-left: 300px;
+  }
+
+  #que3{
+    margin-top: 10px;
+    margin-left: 500px;
+  }
+
+  #mission_valuesTable{
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+  #mission_valuesTable td{
+    padding:0 20px;
+  }
+
+  /*nosotros equipos css begins*/
+  #equipos-hero-text {
+    text-align: center;
+    position: absolute;
+    margin-left: 300px;
+  }
+
+  #equipos-hero-text p{
+    color: white;
+    font-size: 10px;
+    padding-bottom: 8px;
+  }
+
+  #equipos-hero-text h2{
+    color: white;
+    font-size: 14px;
+    margin-bottom: -2px;
+  }
+
+  #tbl-direction{
+    margin-left: 70px;
+    /* margin-right: 150px; */
+  }
+  
+  #tbl-direction td{
+    padding: 15px;
+  }
+
+  .direction-team{
+    width: 140px;
+    border: 1px solid rgb(226, 222, 222);
+  }
+
+  .direction-team img{
+    height: 120px;
+    margin-left: 15px;
+  }
+
+  #multidiscipline{
+    margin-left: 20px;
+    /* margin-right: 50px; */
+  }
+
+  #multidiscipline td{
+    padding: 15px;
+  }
+
+  .multidiscipline-team{
+    width: 140px;
+    border: 1px solid rgb(226, 222, 222);
+  }
+
+  .multidiscipline-team img{
+    height: 120px;
+    margin-left: 8px;
+  }
+
+  #euipos-social_media{
+    padding-left: 0px;
+  }
+
+  #euipos-social_media i{
+   float: left;
+   color: white;
+   font-size:32px;
+   margin-top:40px;
+   margin-left: 30px;
+  }
+  
+  /*contact us css begins*/
+  #Contacto{
+    margin-left: 70px;
+    
+    margin-top: 20px;
+  }
+  #Contacto td{
+    padding: 20px;
+  }
+
+  #media_handles i{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+  }
+
+  #media_handles{
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+
+  #contact_form{
+    margin-left: 100px;
+  }
+
+  #contact_form td{
+    padding-bottom: 25px;
+  }
+
+  #contact-us-fourth-sec{
+    height: 100px;
+  }
+
+  #contact-us-fourth-sec p{
+    font-size: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #contact-us-social_media{
+    padding-left: 190px;
+    height: 100px;
+  }
+
+  #contact-us-social_media i{
+   float: left;
+   color: white;
+   font-size:32px;
+   margin-top:40px;
+   margin-left: 45px;
+  }
+}
+
+/* media query implementation  ends*/
+
+/*media query implementation starts for iphone x*/
+@media screen and (max-width : 375px){ 
+/* and (device-height : 812px){ */
+  #navigation-container {
+    width: 200px;
+    margin: 0 auto;
+    /* height: 70px; */
+    /* margin-bottom: 90px; */
+  } 
+
+  .navigation-bar {
+    background-color:white;
+    height: 20px;
+    width: 100%;
+    text-align:center;
+  }
+  
+  .navigation-bar img{
+    width: 50px; height: 50px;
+  }
+
+  .navigation-bar li a {
+    font-size: 10px;
+    text-decoration: none;
+    line-height: 14px;
+    padding: 1px 1px;
+  }
+
+  #gente{
+    background-image: url("../images/homepage-one-banner.jpg") no-repeat;
+    /* background-size: 300px 100px; */
+    height: 200px;
+    margin-top: 160px;
+  }
+
+  #overlap_img{
+    background-image: url('../images/objects.png');
+    height: 200px;
+    width: 230px;
+    margin-top:-200px;
+  }
+  
+  #gente h1{
+    text-align: left;
+    /* margin-left: 200px; */
+    font-size: 12px;
+  }
+
+  #gente p {
+      text-align: left;
+      width: 200px;
+      /* margin-left: 200px; */
+      color: white;
+      /* padding-bottom: 10px; */
+      font-size: 10px;
+  }
+
+  #objectivos{
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+#objectivos h2{
+    font-size: 12px;
+}
+
+#objectivos p{
+  font-size: 10px;
+  padding:2px 25px;
+}
+#valores{
+  margin-top: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+#values_table{
+  /* font-size: 10px; */
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  text-align: left;
+  width: 230px;
+  margin-left: 0px;
+}
+
+#values_table td{
+padding:0 5px;
+}
+
+#values_table td p{
+font-size: 10px;
+}
+
+
+#values_table h2 {
+  position: relative;
+  line-height: 1em;
+  font-size: 12px;
+}
+
+.row{
+  width: 600px;
+  height:300px;
+}
+
+#icons_table{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 0px;    
+  width: 200px;
+  height: 100px;
+  border-color: rgb(223, 173, 132);
+}
+
+#icons_table td i{
+margin-left: 10px;
+margin-bottom: 9px;
+}
+
+.column {
+  float: none;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+#col2_h1{
+  margin: 0;
+  margin-left: 10px;
+  
+  font-size: 15px;
+}
+
+#col2_p{
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: left;
+  color: rgb(189, 181, 181);  
+}
+
+#col2_form{
+  margin-left: 10px;
+  text-align: left;
+  color: white;
+}
+
+.register_form{
+  color: white;
+  background-image: url('../images/homepage-one-banner.jpg');
+  padding: 2px 2px;
+  width: 100px;
+  
+}
+
+.strategy h2 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.strategy{
+  width: 300px;
+  /* background-image: url('../images/Colors_Of_Sky.jpg'); */
+}
+
+#firstimg{
+  margin-left:20px;
+  height: 80px;
+  /* width: 120px; */
+}
+
+#secondimg{
+  margin-left:80px;
+  height: 80px;
+  /* width: 120px; */
+}
+
+#blogframe{
+  float: left;
+  margin-top:10px;
+  width:300px;
+  height:200px;
+  margin-left: 0px;
+  margin-bottom: 60px;
+}
+
+#footer{
+  margin-top: 15px;
+  float: none;
+  width: 300px;
+}
+
+#footer form h2{
+  margin-top: 0px;
+  float: left;
+  margin-left: 10px;
+  color: white;
+}
+
+#footer_lastline i{
+  margin-left: 250px;
+  font-size: 25px;
+}
+
+#heroImage{
+  width: 300px;
+  margin-top: 132px;
+  display: block;
+  background-image: url('../images/homepage-one-banner.jpg');
+  background-size: 300px 80px;
+  height: 80px;
+}
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  margin-left: 70px;
+}
+
+#hero-text p{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+#mission{
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: left;
+  width: 310px;
+}
+
+#mission td{
+  padding:15px;
+}
+
+.speech-bubble {
+  margin-top: 30px;
+  border-radius: 5px;
+  
+}
+
+#third_bubble{
+  margin-top: 50px;
+  width: 200px;
+  height: 280px;
+  margin-left: 30px;
+  /* margin-right: 200px; */
+}
+
+#second_bubble{
+  margin-top: 50px;
+  width:200px;
+  margin-left: 30px;
+  height: 200px;
+}
+
+#first_bubble{
+  margin-left: 50px;
+}
+
+#que1{
+  margin-left: 80px;
+  margin-top: -650px;
+}
+
+#que2{
+  margin-top: -360px;
+  margin-left: 80px;
+}
+
+#que3{
+  margin-top: 5px;
+  margin-left: 60px;
+}
+
+#mission_valuesTable{
+  margin-left: 0px;
+  /* margin-right: 200px; */
+  margin-bottom: 40px;
+  text-align: left;
+  width:300px;
+}
+
+#mission_valuesTable td{
+  padding:0 5px;
+}
+
+#mission_valuesTable td p{
+  font-size: 10px;
+}
+
+#mission_valuesTable h2 {
+  /* position: relative;
+  line-height: 1.3em; */
+  font-size: 12px;
+}
+
+#equipos-hero-text {
+  text-align: center;
+  position: absolute;
+  margin-left: 60px;
+}
+
+#tbl-direction{
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#tbl-direction td{
+  padding: 5px;
+}
+
+.direction-team{
+  width: 100px;
+  border: 1px solid rgb(226, 222, 222);
+}
+
+.direction-team img{
+  height: 100px;
+  width: 60px;
+  margin-left: 15px;
+}
+
+#multidiscipline{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#multidiscipline td{
+  padding: 2px;
+}
+
+.multidiscipline-team{
+  width: 100px;
+  border: 1px solid rgb(226, 222, 222);
+}
+
+.multidiscipline-team img{
+  height: 100px;
+  width: 60px;
+  margin-left: 18px;
+}
+
+.multidiscipline-team p{
+  text-align: center;
+  font-size: 13px;
+}
+
+#Contacto{
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 5px;
+}
+#Contacto td{
+  padding: 8px;
+  font-size: 12px;
+}
+
+#media_handles i{
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+#media_handles{
+  margin-left: 10px;
+  float: left;
+  margin-right: 0px;
+}
+
+#media_handles td{
+  padding: 5px;
+}
+
+#contact_form{
+  margin-left: 18px;
+  width: 270px;
+}
+
+#contact_form td{
+  padding-bottom: 25px;
+}
+
+#contact-us-fourth-sec{
+  display: block;
+  padding-top: 10px;
+  width: 300px;
+  background-image: url('../images/homepage-one-banner\ -\ Copy.jpg');
+  height: 120px;
+}
+
+#contact-us-fourth-sec p{
+  /* margin-top: 30px; */
+  color: white;
+  font-size: 15px;
+}
+
+#contact-us-social_media{
+  padding-left: 10px;
+  height: 100px;
+}
+
+#contact-us-social_media i{
+ float: left;
+ color: white;
+ font-size:28px;
+ margin-top:40px;
+ margin-left: 45px;
+}
+
+}
+/*media query implementation ends for iphone x*/
+
+/*Extra pages CSS starts*/
+/*team 2*/
+.item1 { 
+  grid-area: header; 
+  height: 5px;
+}
+.item2 { 
+  grid-area: menu;
+
+ }
+.item3 { 
+  grid-area: main;
+  height:300px;
+  overflow: scroll;
+
+}
+.item3 table {
+  margin-top:-60px ;
+  margin-left:100px ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-collapse: collapse;
+}
+
+.item3 table td, th {
+  border: 1px solid #080808;
+  text-align: left;
+  padding: 8px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main';
+  
+  grid-gap: 10px;
+  background-color: rgba(255, 253, 253, 0.945);
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgb(218, 206, 185);
+  text-align: center;
+  padding: 100px 0;
+  font-size: 30px;
+}
+
+.vertical-menu {
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*aboutus*/
+.i1 { grid-area: header; 
+  height: 10px;
+}
+.i2 { grid-area: menu;
+  width: 250px; }
+.i3{ grid-area: main;
+  height:300px; 
+  overflow: scroll;
+}
+.i3 table { 
+  padding-left: 20px;
+  margin-top:-100px ;
+  margin-left:0px ;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.i3 table td, th {
+  border: 1px solid #080808;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.grid-contain {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main';
+  
+  grid-gap: 10px;
+  background-color: rgba(255, 253, 253, 0.945);
+  padding: 20px;
+}
+
+.grid-contain >div {
+  background-color: rgb(218, 206, 185);
+  text-align: center;
+  padding: 100px 0;
+  font-size: 30px;  
+}
+
+/*team add css starts here*/
+.login_container2 {
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 300px;
+  height: 330px;
+}
+
+.login_container2 hr{
+  color: gray;
+}
+
+.login_container2 h1{
+  margin-left: 20px;
+}
+
+.login_container2 h1 span{
+  font-style: italic;
+  color: #e65c00;
+}
+.login_container2 i{
+  float: right;
+  margin-right: 5px;
+  font-size: 25px;
+  color: gray;
+}
+.login_container2 input, label{
+  margin-left: 20px;
+  color: gray;
+}
+
+.login_container2>input{
+  border: 1px solid #ccc;
+  color: black;
+  width:80%;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+}
+#submit2 {
+  background-color: #e65c00;
+  color: white;
+  padding: 4px 15px;
+  margin: 8px 160px;
+  border: none;
+  cursor: pointer;
+}
+
+/*add participant*/
+
+.login_container3 {
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 300px;
+  height: 330px;
+}
+
+.login_container3 hr{
+  color: gray;
+}
+
+.login_container3 h1{
+  margin-left: 20px;
+}
+
+.login_container3 h1 span{
+  font-style: italic;
+  color: #e65c00;
+}
+.login_container3 i{
+  float: right;
+  margin-right: 5px;
+  font-size: 25px;
+  color: gray;
+}
+.login_container3 input, label{
+  margin-left: 20px;
+  color: gray;
+}
+
+.login_container3>input{
+  border: 1px solid #ccc;
+  color: black;
+  width:80%;
+  height: 15px;
+  margin-top: -25px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: -5px 20px;
+}
+#submit3 {
+  background-color: #e65c00;
+  color: white;
+  padding: 0px 15px;
+  margin: 8px 190px;
+  border: none;
+  cursor: pointer;
+}
+/*table css for grid*/
+.details_tb {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.details_tb td, .details_tb th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.details_tb th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(95, 160, 93);
+  color: white;
+}
+
+/*Extra pages CSS starts*/

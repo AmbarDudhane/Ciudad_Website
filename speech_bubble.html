@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+    .speech-bubble {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    background: #f6f8f8;
+    border: 1px solid gray;
+    border-radius: .4em;
+    width: 300px;
+    height: 400px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 7%;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: #141818;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -15px;
+	margin-bottom: -30px;
+}
+</style>
+</head>
+
+<body>
+    <div class="speech-bubble">
+        abcdef
+    </div>
+    <div class="speech-bubble">
+        sfsfsdf
+    </div>
+    <div class="speech-bubble">
+        sdffsdf
+    </div>
+</body>
+</html>

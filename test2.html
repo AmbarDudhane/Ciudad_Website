@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+    .speech-bubble {
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 110px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent #c8c8c8 transparent transparent;
+    border-width: 0 12px 12px 0;
+    bottom: -8px;
+    left: 0px;
+}
+
+.bottom:after {
+    border-color: transparent #703939 transparent transparent;
+    border-style: solid;
+    border-width: 0px 11px 11px 0px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
+</style>
+</head>
+<body>
+    <div class="speech-bubble">
+        <div class="arrow bottom right"></div>
+        Thinking....
+    </div>
+</body>
+</html>
